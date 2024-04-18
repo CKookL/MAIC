@@ -6,7 +6,9 @@
     background-color: #eaeaea;
     font-family: 'Poppins', sans-serif;
 }
-
+.active{
+    background-color: #FFD600;
+}
 .requirements{
     padding: 10vh 5vw;
 }

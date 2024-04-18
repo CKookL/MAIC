@@ -53,6 +53,10 @@
     justify-content: center;
     align-items: center;
 }
+
+.active{
+    background-color: #FFD600;
+}
 .label-requirements h1{
     color: #213E89;
     font-weight: 600;
