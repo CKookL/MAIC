@@ -1,0 +1,96 @@
+.WhyMaic-container{
+    font-family: 'Open Sans', 'sans-serif';
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    padding: 50px 0  50px 0;
+}
+.Accordion-container{
+    margin: 0px 40px;
+    padding-top: 20px;
+    align-items: start;
+}
+.whymaicText-frontPic-cotainer{
+    border: #213e8998 solid 0.5px;
+    height: auto;
+    width: 430px;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.174) ;
+    align-items: center;
+}
+.front-pic {
+    height: 150px;
+    background: url(Images/Slide1.jpg);
+    background-size: cover;
+}
+.whymaic-text-container p{
+    color: rgba(0, 0, 0, 0.826);
+    padding: 10px 20px 40px;
+}
+.whymaic-text-container h1{
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #213E89;
+    color: #FFD600;
+    font-weight: bold
+}
+details{
+    margin: 10px 0px;
+    background-color:#213E89;
+    color: #FFD600;
+    width: 25rem;
+    max-width: 400px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.174), 5px 10px 15px rgba(0, 0, 0, 0.174);
+}
+details summary{
+    padding: 20px;
+}
+details:hover{
+    cursor: pointer;
+}
+details p:hover{
+    cursor: text;
+}
+summary i {
+    margin-left: 30px;
+}
+details p{
+    padding: 10px 20px;
+}
+.details-accordion{
+    border-top: #FFD600 solid 1px;
+    color:  #ffffff
+}
+details summary{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+details[open] summary i{
+    transform: rotate(180deg);
+}
+@media (max-width: 1017px) {
+    .WhyMaic-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 490px){
+    .whymaicText-frontPic-cotainer{
+        width: 90%;
+    }
+    details{
+        font-size: 14px;
+        width: 100%;
+    }
+    .whymaicText-frontPic-cotainer h1{
+        font-size: 24px;
+    }
+    .whymaicText-frontPic-cotainer p{
+        font-size: 13px;
+    }
+}

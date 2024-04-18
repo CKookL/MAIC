@@ -1,0 +1,43 @@
+.Between{
+    font-family: 'Open Sans', 'sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -75px;
+    padding: 20px;
+}
+.Container-between{
+    box-shadow: 5px 10px black, 5px 10px 8px black ;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #213E89;
+}
+.Container-between div p{ 
+    display: flex;
+    margin: 0 10px 0 10px;
+    letter-spacing: 1.5px;
+    color: #FFD600;
+}
+.Be-part-MAIC-family, .Be-part-MAIC-wonderful, .Be-part-MAIC-quality{
+    margin: 0 20px 0 20px;
+    display: flex;
+}
+.icon-card, .icon-calendar, .icon-quality{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFD600;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+@media (max-width: 1017px){
+    .Container-between{
+        flex-direction: column;
+    }
+    .Container-between div{
+        margin: 15px 0px;
+    }
+}

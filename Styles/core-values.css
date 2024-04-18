@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.values-container{
+    font-family: 'Poppins', 'Sans serif';
+    padding: 3% 0 10%;
+    background-color: #1c1c1c;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.values-container h1{
+    font-weight: 600;
+    color: white; 
+    letter-spacing: 2px;
+    font-size: 28px ;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.core-values{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items:center;
+    row-gap: 50px;
+    width: 90%;
+    max-width: 1100px;
+    color: white;
+}
+.core-values div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 20px;
+    width: 90%;
+    max-width: 300px;
+}
+.core-values h1{
+    font-size: 17px;
+    padding-bottom: 60px;
+}
+.core-values p{
+    font-size: 13px;
+}
+@media (max-width: 920px){
+    .values-container{
+        padding: 8vh 0 15vh;
+    }
+    .values-container h1{
+        margin-bottom: 6vh;
+    }
+    .core-values{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .core-value-4{
+        margin-left: 0;
+    }
+}
+@media (max-width: 650px){
+    .values-container{
+        padding: 8vh 0 15vh;
+    }
+    .values-container h1{
+        margin-bottom: 6vh;
+    }
+    .core-values{
+        grid-template-columns: 1fr;
+    }
+    .core-value-5{
+        margin-left: 0;
+    }
+}

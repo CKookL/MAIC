@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Enrollment-container{
+    font-family: 'Poppins', 'sans-serif';
+    background: url(Images/Slide1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+.Enrollment-container p{
+    text-align: center;
+    margin: 15px 20px 0px;
+    font-size: 22px;
+    max-width: 839px;
+}
+.Enrollment-container button{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #FFD600;
+    padding: 7px 20px 7px;
+    border: none;
+    transition: ease-in-out 0.2s;
+}
+.Enrollment-container button a{
+    color: #213E89;
+}
+.Enrollment-container button:hover{
+    transition: ease-in-out 0.2s;
+    background-color:#d4b100;
+    color: #213E89;
+    cursor: pointer;
+}
+@media (max-width: 490px){
+    .Enrollment-container p, .Enrollment-container h1{
+        text-align: center;
+        width: 85%;
+    }
+    .Enrollment-container p{
+        font-size: 15px;
+    }
+    .Enrollment-container h1{
+        font-size: 20px;
+    }
+    .Enrollment-container button{
+        font-size: 16px;
+    }
+    .Enrollment-container{
+        padding: 50px 0px;
+    }
+    
+}

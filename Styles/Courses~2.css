@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Courses-container{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    background-color: #eaeaea;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7% 0px;
+}
+.college-courses, .seniorHighschool-courses{
+    height: 350px;
+    width: 350px;
+    box-shadow: 2px 6px black, 2px 6px 2px black ;
+    color: #FFD600;
+    background-color: #213E89;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: ease-in-out 0.3s;
+}
+.college-courses:hover, .seniorHighschool-courses:hover{
+    transition: ease-in-out 0.3s;
+    box-shadow: 5px 10px black, 5px 10px 8px black ;
+
+}
+.labels{
+    font-family: 'Poppins', sans-serif;
+    background: url(Images/label-pages.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.labels h1{
+    color: #213E89;
+    font-weight: 600;
+}
+.label-requirements{
+    background: url(Images/label-pages.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.label-requirements h1{
+    color: #213E89;
+    font-weight: 600;
+}
+@media (max-width: 790px){
+    .Courses-container{
+        flex-direction: column;
+        row-gap: 5em;
+    }
+}
+@media (max-width: 600px){
+    .college-courses, .seniorHighschool-courses{
+        height: 300px;
+        width: 300px;
+        font-size: 17px;
+    }
+    .labels{
+        font-size: 14px;
+        padding: 3vh;
+    }
+}

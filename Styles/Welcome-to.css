@@ -1,0 +1,64 @@
+.container-welcome{
+    font-family: 'Open Sans', 'sans-serif';
+    background: url(Images/bg\ mission\ welcome.png); 
+    background-size: cover;
+    height: auto;
+    padding: 5vh 0px;
+}
+.container-welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.MAIC-Blue{
+    text-align: center;
+}
+.MAIC-Blue p{
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 0px 5px 7px #00000053;
+}
+
+.Paragraph-welcome p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 30px;
+    font-weight: 500;
+    max-width: 900px;
+    font-size: 15px;
+    text-shadow: 0px 5px 7px #00000053;
+}
+.banners{
+    display: flex;
+    justify-content: center;
+}
+.banners img{
+    margin: 25px auto 0px;
+    height: auto;
+    width: 90%;
+    max-width: 400px;
+}
+@media (max-width: 600px){
+    .Paragraph-welcome p{
+        font-size: 12px;
+    }
+    .MAIC-Blue p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 800px) {
+    .banners img{
+        width: 50%;
+    }
+}
+@media (max-width: 600px) {
+    .banners{
+        flex-direction: column;
+    }
+    .banners img{
+        width: 80%;
+    }
+}
