@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 .mobile-navBG.is-active{
     z-index: 98;
@@ -22,7 +23,7 @@
     transform: translateX(-245px);
 }
 header{
-    font-family: 'Poppins', 'sans-serif';
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     font-weight: 600;
     width: 100%;
