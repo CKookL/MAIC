@@ -22,7 +22,7 @@
     transform: translateX(-245px);
 }
 header{
-    font-family: 'Open Sans', 'sans-serif';
+    font-family: 'Poppins', 'sans-serif';
     letter-spacing: 1px;
     font-weight: 600;
     width: 100%;
@@ -42,7 +42,6 @@ header{
     font-weight: 500;
     color: white;
     font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .logo img{
     width: auto;
