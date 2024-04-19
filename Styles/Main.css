@@ -91,8 +91,12 @@ header ul li a:hover{
     color: #213E89;
     background-color:  #FFD600;
 }
-
-.active a{
+.Home a{
+    font-size: 17px;
+    margin: 0px 20px;
+    color: white;
+}
+.active{
     font-family: 'Poppins', sans-serif;
     font-weight: 550;
     font-size: 15px;
@@ -104,10 +108,10 @@ header ul li a:hover{
     background-color: #FFD600;
 }
 
-.active a:hover{
+.active{
     transition: ease-in-out 0.2s;
     cursor: pointer;
-    background-color: #d2af00;
+    background-color: #FFD600;
     color: black;
 }
 
